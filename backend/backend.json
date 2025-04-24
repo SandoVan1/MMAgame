@@ -1,0 +1,18 @@
+[
+  {
+    "NONE": {
+      "divisions": [
+        {"fly": [{"isInLeague": false},{"weight": 125}]},
+        {"bantam":[{"isInLeague": false},{"weight": 135}]},
+        {"feather": [{"isInLeague": false},{"weight": 145}]},
+        {"light": [{"isInLeague": false},{"weight": 155}]},
+        {"welter": [{"isInLeague": false},{"weight": 170}]},
+        {"middle": [{"isInLeague": false},{"weight": 185}]},
+        {"lightheavy": [{"isInLeague": false},{"weight": 205}]},
+        {"heaavy": [{"isInLeague": false},{"weight": 265}]}
+      ],
+      "fighters": [],
+      "popularity": [0,0]
+    }
+  }
+]
