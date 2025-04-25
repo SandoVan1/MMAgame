@@ -1,18 +1,51 @@
-[
-  {
-    "NONE": {
-      "divisions": [
-        {"fly": [{"isInLeague": false},{"weight": 125}]},
-        {"bantam":[{"isInLeague": false},{"weight": 135}]},
-        {"feather": [{"isInLeague": false},{"weight": 145}]},
-        {"light": [{"isInLeague": false},{"weight": 155}]},
-        {"welter": [{"isInLeague": false},{"weight": 170}]},
-        {"middle": [{"isInLeague": false},{"weight": 185}]},
-        {"lightheavy": [{"isInLeague": false},{"weight": 205}]},
-        {"heaavy": [{"isInLeague": false},{"weight": 265}]}
-      ],
-      "fighters": [],
-      "popularity": [0,0]
-    }
+{
+  "FreeAgents": [],
+  "Ultimate Fighting Championship": {
+    "name": {
+      "FULLname": "Ultimate Fighting Championship",
+      "ABREVIATEDname": "UFC"
+    },
+    "country": "American",
+    "promoter": {
+      "Fname": "Dana",
+      "Lname": "White"
+    },
+    "popularity": 10,
+    "netWorth": 120823972,
+    "divisions": {
+      "fly": true,
+      "bantam": true,
+      "feather": true,
+      "light": true,
+      "welter": true,
+      "middle": true,
+      "lightheavy": true,
+      "heavy": true
+    },
+    "fighters": []
+  },
+  "Pride Fighting League": {
+    "name": {
+      "FULLname": "Pride Fighting League",
+      "ABREVIATEDname": "PFL"
+    },
+    "country": "American",
+    "promoter": {
+      "Fname": "Donn",
+      "Lname": "Davis"
+    },
+    "popularity": 7,
+    "netWorth": 52982123,
+    "divisions": {
+      "fly": true,
+      "bantam": true,
+      "feather": true,
+      "light": true,
+      "welter": true,
+      "middle": true,
+      "lightheavy": true,
+      "heavy": true
+    },
+    "fighters": []
   }
-]
+}
