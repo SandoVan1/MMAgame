@@ -326,15 +326,13 @@ function save(){
     fs.writeFileSync('save.json', JSON.stringify(editedJSONfileSave,null,4));
 }
 function overallAverage(){
+    //doesnt work
     let grandnum = 0;
     for (let i=0;i<1000;i++){
         const arrayC = editedJSONfileSave.NONE.fighters[i].Stats
         Object.keys(arrayC).forEach(key=>{grandnum = grandnum + arrayC[key];})
     }
     console.log(grandnum/1000)
-}
-function printSINGLEfighter(number){
-    console.log(editedJSONfileSave.NONE.fighters[number].Weight)
 }
 function printFreeAgencyDIVISIONS(){
     let divisions = 
